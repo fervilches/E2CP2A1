@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Landing Latam</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <style media="screen">
+      .BarraNav {
+      width: 100%;
+      height: 100%;
+      display: block;
+      float: left;
+      background-image: url("images/bg.jpeg");
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      }
+
+      .BarraNav img {
+        height: 60px;
+        float: left;
+
+      }
+      .BarraNav li{
+
+        float: right;
+        padding-right: 30px;
+        list-style-type: none;
+
+      }
+      .Header {
+        position: relative;
+        top: 0px;
+      }
+      .Header h1 {
+        color: white;
+        padding-top: 150px;
+        text-align: center;
+      }
+
+      .Header p {
+        color: white;
+        padding-top: 6px;
+        text-align: center;
+        font-size: 13px;
+        padding-bottom: 100px;
+      }
+
+      .Header #botón1{
+        background-color: blue;
+        color: white;
+        margin-left: 40%;
+        float: left;
+        z-index: -20;
+        border-radius: 5px;
+        border-style: hidden;
+        font-size: 15px;
+
+      }
+
+      .Header #botón2{
+        background-color: green;
+        color: white;
+        margin-left: 5px;
+        z-index: -20;
+        border-radius: 5px;
+        border-style: hidden;
+        font-size: 15px;
+      }
+
+      .Bajada {
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+      }
+
+      .Bajada p{
+        font-size: 12px;
+      }
+
+      .Bajada img{
+        width: 50%;
+        text-align: center;
+      }
+
+      .clearfix {
+        clear: both;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="BarraNav">
+      <img src="images/latam_logo.png" alt="logo_desafío_latam">
+      <ul>
+        <li>Equipo</li>
+        <li>Blog</li>
+        <li>Contacto</li>
+      </ul>
+
+      <div class="Header">
+        <h1>COMIENZA UNA NUEVA VIDA Y ÚNETE AL MUNDO TECNOLÓGICO</h1>
+          <button id="botón1" type="button1" name="ComienzaAcá">Comienza Acá</button>
+          <button id="botón2"type="button2" name="MásInfo">Más Info</button>
+        <p>Hay una escasez gigante de desarrolladores en el mundo y más aún en Latinoamérica, se necesitan <br> más desarrolladores y Tú puedes ser uno</p>
+      </div>
+
+    </div>
+
+    <div class="clearfix">
+
+    </div>
+
+
+      <div class="clearfix">
+
+    <div class="Bajada">
+      <h2>EL BOOTCAMP DE PROGRAMACIÓN MÁS GRANDE DE LATINOAMÉRICA</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <img src="images/viewing-gallery-for-happy-people.png" alt="happypeople">
+    </div>
+
+      <div class="clearfix">
+
+    <div class="SolicitaInfo">
+      <h2>SOLICITA INFORMACIÓN E INSCRÍBETE</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <button type="button" name="Inscríbete"></button>
+        <p>Vive la experiencia Desafío Latam</p>
+    </div>
+
+      <div class="clearfix">
+
+    <div class="Contacto">
+      <h3>Contacto</h3>
+      <p>Ezequias Alliende 2361 <br>P:+56 9 5117 7975</p>
+      <a href="mailto:inscripciones@desafiolatam.com">inscripciones@desafiolatam.com </a>
+    </div>
+
+      <div class="clearfix">
+
+    <div class="Footer">
+      <h2>DESAFÍO LATAM 2017 - CURSOO FULLSTACK G5</h2>
+    </div>
+
+  </body>
+</html>
