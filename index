@@ -5,6 +5,11 @@
     <title>Landing Latam</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <style media="screen">
+
+      body {
+        margin: 0px;
+      }
+
       .BarraNav {
       width: 100%;
       height: 100%;
@@ -13,11 +18,13 @@
       background-image: url("images/bg.jpeg");
       color: white;
       font-family: 'Raleway', sans-serif;
+      padding-top: 35px;
       }
 
       .BarraNav img {
-        height: 60px;
+        height: 40px;
         float: left;
+        margin-left: 30px;
 
       }
       .BarraNav li{
@@ -25,6 +32,8 @@
         float: right;
         padding-right: 30px;
         list-style-type: none;
+        font-size: 15px;
+        color: gray;
 
       }
       .Header {
@@ -42,7 +51,7 @@
         padding-top: 6px;
         text-align: center;
         font-size: 13px;
-        padding-bottom: 100px;
+        padding-bottom: 140px;
       }
 
       .Header #botón1{
@@ -54,23 +63,26 @@
         border-radius: 5px;
         border-style: hidden;
         font-size: 15px;
+        height: 35px;
 
       }
 
       .Header #botón2{
         background-color: green;
         color: white;
-        margin-left: 5px;
+        margin-left: 10px;
         z-index: -20;
         border-radius: 5px;
         border-style: hidden;
         font-size: 15px;
+        height: 35px;
       }
 
       .Bajada {
         color: black;
         font-family: 'Raleway', sans-serif;
         text-align: center;
+        padding-top: 30px;
       }
 
       .Bajada p{
@@ -78,8 +90,78 @@
       }
 
       .Bajada img{
-        width: 50%;
+        width: 30%;
         text-align: center;
+      }
+
+      .SolicitaInfo {
+        color: black;
+        background-color: #EFF5FB;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+
+      .SolicitaInfo p{
+        font-size: 12px;
+      }
+
+      .SolicitaInfo button{
+        background-color: blue;
+        color: white;
+        margin-left: 47%;
+        float: left;
+        z-index: -20;
+        border-radius: 5px;
+        border-style: hidden;
+        font-size: 15px;
+        margin-right: 45%;
+        margin-bottom: 8px;
+        height: 35px;
+      }
+
+      .Contacto {
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        float: left;
+        margin-left: 25%;
+        margin-right: 10%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+      }
+
+      .Contacto #Desafío{
+        font-weight: 500;
+        font-size: 14px;
+      }
+
+      .Contacto p {
+        font-size: 13px;
+      }
+
+      .Contacto a {
+        font-size: 13px;
+      }
+
+      .Suscríbete {
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        float: left;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+      .Suscríbete p {
+        font-size: 13px
+      }
+
+      .Footer {
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        background-color: black;
+        height: 100px;
+        padding-top: 20px;
       }
 
       .clearfix {
@@ -124,23 +206,35 @@
 
     <div class="SolicitaInfo">
       <h2>SOLICITA INFORMACIÓN E INSCRÍBETE</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        <button type="button" name="Inscríbete"></button>
-        <p>Vive la experiencia Desafío Latam</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <button type="button" name="Inscríbete">Inscríbete</button><br><br>
+        <h5>Vive la experiencia Desafío Latam</h5>
     </div>
 
       <div class="clearfix">
 
     <div class="Contacto">
       <h3>Contacto</h3>
+      <p id="Desafío">Desafío Latam</p>
       <p>Ezequias Alliende 2361 <br>P:+56 9 5117 7975</p>
       <a href="mailto:inscripciones@desafiolatam.com">inscripciones@desafiolatam.com </a>
     </div>
 
+    <div class="Suscríbete">
+      <h3>Suscríbete</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <form>
+        <input type="text" name="" placeholder="Ingresa tu e-mail">
+         <input type="submit" value="Submit">
+      </form>
+    </div>
+
+
+
       <div class="clearfix">
 
     <div class="Footer">
-      <h2>DESAFÍO LATAM 2017 - CURSOO FULLSTACK G5</h2>
+      <h3>DESAFÍO LATAM 2017 - CURSOO FULLSTACK G5</h2>
     </div>
 
   </body>
